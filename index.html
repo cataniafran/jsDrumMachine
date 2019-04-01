@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Drum Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JS drums</h1>
+
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">snare</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">kick</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">crash</span>
+        </div>
+    </div>
+
+
+    <audio data-key="65" src="./sounds/acousticSnare.mp3"></audio>
+    <audio data-key="83" src="./sounds/electroKick.mp3"></audio>
+    <audio data-key="68" src="./sounds/crashCymbal.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
